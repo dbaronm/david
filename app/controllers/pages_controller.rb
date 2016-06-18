@@ -14,4 +14,7 @@ class PagesController < ApplicationController
 			notice: "El usuario fue guardado"
 		end
 	end
+	def landing
+		render layout: 'layout2'
+	end
 end
